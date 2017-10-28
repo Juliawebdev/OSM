@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="JS/leaflet/leaflet.css" />
+    <script src="JS/leaflet/leaflet.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>OpenStreetMap</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="square text-center float-left">
+            <div class="number">6,8</div>
+            <div class="price"> Большая цена</div>
+        </div>
+        <div class="top">Помещение сдается за 1230 руб. (123 руб. / м<sup>2</sup>). Общая площадь 10 м<sup>2</sup></div>
+        <div class="image float-left"><img src="images/metro.jpg"></div>
+        <div class="text float-left">Помещение находится в 542 метрах от метро Адмиралтейская по адресу: Боровая, 44</div>
+        <div class="image float-left"><img src="images/ticket.jpg"></div>
+        <div class="text float-left">Помещение подходит под категории: банк, бытовые услуги, гостиничный бизнес</div>
+        <div class="browse float-left"><img src="images/browse.jpg"></div>
+        <div class="adv float-left">Перейти к объявлению</div>
+        <div class="icons float-left">
+            <div class="icon float-left"><img src="images/1.jpg"> </div>
+            <div class="icon float-left"><img src="images/2.jpg"></div>
+            <div class="icon float-left"><img src="images/3.jpg"></div>
+        </div>
+        <div class="links float-left">
+            <div class="link float-left"><a href="#openModal"><ins>Показать</ins> <ins>карту</ins></a></div>
+            <div class="link float-left"><a href="#"><ins>Анализ</ins></a></div>
+            <div class="link float-left"><a href="#"><ins>Ретроспектива</ins> <ins>цен</ins></a></div>
+            <div class="link float-left"><a href="#"><ins>Избранное</ins></a></div>
+        </div>
+        <div id="openModal" class="modalDialog">
+            <div><a href="#close" title="Закрыть" class="close">X</a>
+              <div id="map"></div>  
+            </div>
+            
+        </div>
+    </div>
+    <script type="text/javascript" src="JS/script.js"></script>
+</body>
+</html>
